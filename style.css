@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #040D12;
+    flex-direction: column;  
+    
+}
+
+
+.boss.name{
+font-family: cursive;
+font-size: 40px;
+color: #C70039;
+}
+
+button{
+    width: 100px;
+    height: 70px;
+    background-color: #232D3F;
+    border-radius: 10%;
+}
+
+.buttons{
+    display: flex;
+    width: 650px;
+   text-align: center;
+   margin: 0;
+    justify-content: space-between;
+  
+}
+
+.count{
+    text-align: center;
+    color: #008170;
+    margin-top: 30px;
+}
+.table{
+    display: flex;
+    height: 225px;
+    width: 650px;
+    background-color: #232D3F;
+    margin-bottom: 30px;
+    border-radius: 3%;
+    
+}
+#loot1{
+    margin-top: 0;
+    
+}
+#itemWorth{
+    display: flex;
+   width: 650px;
+
+}
+.drop{
+    width: 250px;
+}
+.title{
+    text-align: center;
+}
+#lootTable{
+    width: 300px;
+    text-align: center;
+}
+#history{
+    text-align: center;
+    width: 300px;
+    
+}
+.sum{
+    text-align: center;
+}
+p{
+    color: #008170;
+    font-size: 18px;
+}
+.gold.rare{
+    padding-left: 25px;
+}
+.title.common{
+    text-align: left;
+    padding-left: 19px;
+}
